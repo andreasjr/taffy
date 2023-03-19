@@ -1,0 +1,107 @@
+/*!
+Theme Name: Taffy
+Theme URI: 
+Author: Andreas Reif
+Author URI: https://andreasjr.com
+Description: Taffy is a canvas for creating bright, elastic, and engaging content.
+Requires at least: 5.8
+Tested up to: 5.9
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: 
+Text Domain: taffy
+Tags: blog, photography, portfolio, grid-layout, two-columns, left-sidebar, wide-blocks, block-patterns, block-styles, featured-images, full-site-editing, full-width-template, post-formats, template-editing
+*/
+
+body {
+    background-attachment: fixed;
+	background-repeat: repeat-x;
+    background-size: 100vw 100vh;
+}
+/* body::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: var(--wp--preset--color--base);
+	opacity: .6;
+	z-index: -1;
+} */
+
+/* Styles */
+.is-style-call-to-action.wp-block-navigation-item a {
+	padding: 0.44em 1.25em;
+	text-transform: uppercase;
+	background-color: transparent;
+	backdrop-filter: var(--wp--custom--backdrop-filter--x-bright);
+	-webkit-backdrop-filter: var(--wp--custom--backdrop-filter--x-bright);
+	border:solid 3px;
+	border-radius: 2em;
+	color: var(--wp--preset--color--primary);
+	font-weight: 700;
+	letter-spacing: 2px;
+	opacity: 1;
+	transition: var(--wp--custom--transition--normal);
+	box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+.is-style-call-to-action.wp-block-navigation-item a:hover,
+.is-style-call-to-action.wp-block-navigation-item a:focus {
+	color: var(--wp--preset--color--base);
+	background-color: var(--wp--preset--color--primary);
+	box-shadow: var(--wp--custom--shadow--small);
+}
+
+.is-style-clear-background {
+	backdrop-filter: var(--wp--custom--backdrop-filter--normal);
+    -webkit-backdrop-filter: var(--wp--custom--backdrop-filter--normal);
+}
+
+.is-style-position-fixed {
+	position: fixed;
+}
+.is-style-position-sticky {
+	position: sticky;
+	top:0;
+}
+
+.is-style-outer-padding {
+	padding-left: var(--wp--preset--spacing--20);
+	padding-right: var(--wp--preset--spacing--20);
+}
+.is-style-outer-padding > .alignfull {
+	margin-left: calc( -1 * var(--wp--preset--spacing--20));
+	margin-right: calc( -1 * var(--wp--preset--spacing--20));
+}
+
+/* Classes */
+.has-shadow-normal {
+	box-shadow: var(--wp--custom--shadow--normal);
+}
+
+header.wp-block-template-part {
+	position: sticky;
+	top: 0;
+	z-index: 55;
+}
+body.page header.wp-block-template-part,
+body.single header.wp-block-template-part {
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+h1 em,
+h2 em,
+h3 em {
+	font-family: var(--wp--preset--font-family--permanent-marker);
+	font-weight: 400;
+	font-style: normal;
+}
+
+.wp-block-button__link {
+	transition: var(--wp--custom--transition--normal);
+}

@@ -1,0 +1,110 @@
+{
+    "version": 2,
+    "title": "Dark",
+    "settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "var(--wp--preset--color--green)",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#00B627",
+					"name": "Primary - Alt",
+					"slug": "primary-alt"
+				},
+				{
+					"color": "var(--wp--preset--color--blue)",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#1E69F7",
+					"name": "Secondary - Alt",
+					"slug": "secondary-alt"
+				},
+				{
+					"color": "rgb(100, 71, 58)",
+					"name": "Brown",
+					"slug": "brown"
+				},
+				{
+					"color": "rgb(217, 115, 13)",
+					"name": "Orange",
+					"slug": "orange"
+				},
+				{
+					"color": "rgb(223, 171, 1)",
+					"name": "Yellow",
+					"slug": "yellow"
+				},
+				{
+					"color": "rgb(15, 123, 108)",
+					"name": "Green",
+					"slug": "green"
+				},
+				{
+					"color": "rgb(38, 74, 144)",
+					"name": "Blue",
+					"slug": "blue"
+				},
+				{
+					"color": "rgb(105, 64, 165)",
+					"name": "Purple",
+					"slug": "purple"
+				},
+				{
+					"color": "rgb(173, 26, 114)",
+					"name": "Pink",
+					"slug": "pink"
+				},
+				{
+					"color": "rgb(224, 62, 62)",
+					"name": "Red",
+					"slug": "red"
+				},
+				{
+					"color": "rgb(0, 0, 0)",
+					"name": "Black",
+					"slug": "base"
+				},
+				{
+					"color": "rgb(155, 154, 151)",
+					"name": "Light Gray",
+					"slug": "light-gray"
+				},
+				{
+					"color": "rgb(155, 154, 151)",
+					"name": "Gray",
+					"slug": "gray"
+				},
+				{
+					"color": "rgb(155, 154, 151)",
+					"name": "Dark Gray",
+					"slug": "dark-gray"
+				},
+				{
+					"color": "rgb(255, 255, 255)",
+					"name": "White",
+					"slug": "contrast"
+				},
+				{
+					"color": "rgb(0, 0, 0, 0.4)",
+					"name": "Clear",
+					"slug": "clear-primary"
+				},
+				{
+					"color": "rgb(255, 255, 255, 0.2)",
+					"name": "Clear - Alt",
+					"slug": "clear-alt"
+				}
+			]
+		},
+		"custom": {
+			"backdropFilter": {
+				"normal": "blur(25px) brightness(80%)"
+			}
+		}
+    }
+}
