@@ -67,14 +67,13 @@ body {
 	position: sticky;
 	top:0;
 }
-
-.is-style-outer-padding {
-	padding-left: var(--wp--preset--spacing--20);
-	padding-right: var(--wp--preset--spacing--20);
+.has-rounded-corners-normal {
+	border-radius: var(--wp--custom--rounded-radius--normal);
+	overflow: hidden;
 }
-.is-style-outer-padding > .alignfull {
-	margin-left: calc( -1 * var(--wp--preset--spacing--20));
-	margin-right: calc( -1 * var(--wp--preset--spacing--20));
+.has-rounded-corners-large {
+	border-radius: var(--wp--custom--rounded-radius--large);
+	overflow: hidden;
 }
 
 /* Classes */
@@ -104,4 +103,11 @@ h3 em {
 
 .wp-block-button__link {
 	transition: var(--wp--custom--transition--normal);
+}
+
+/**
+ * Utilities
+ */
+.overflow-hidden {
+	overflow: hidden;
 }

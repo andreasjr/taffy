@@ -32,21 +32,6 @@ function taffy_register_block_styles() {
 		)
 	);
 
-	// Register outer padding
-	register_block_style(
-		'core/group',
-		array(
-			'name'			=> 'outer-padding',
-			'label'			=> __( 'Outer Padding', 'taffy' )
-		)
-	);
-	register_block_style(
-		'core/post-content',
-		array(
-			'name'			=> 'outer-padding',
-			'label'			=> __( 'Outer Padding', 'taffy' )
-		)
-	);
 	register_block_style(
 		'core/cover',
 		array(
