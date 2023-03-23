@@ -4,10 +4,10 @@ Theme URI:
 Author: Andreas Reif
 Author URI: https://andreasjr.com
 Description: Taffy is a canvas for creating bright, elastic, and engaging content.
-Requires at least: 5.8
-Tested up to: 5.9
-Requires PHP: 5.7
-Version: 0.0.1
+Requires at least: 6.2
+Tested up to: 6.2
+Requires PHP: 8.0
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: 
@@ -34,7 +34,6 @@ body {
 
 /* Styles */
 .is-style-call-to-action.wp-block-navigation-item a {
-	padding: 0.44em 1.25em;
 	text-transform: uppercase;
 	background-color: transparent;
 	backdrop-filter: var(--wp--custom--backdrop-filter--x-bright);
@@ -48,6 +47,11 @@ body {
 	transition: var(--wp--custom--transition--normal);
 	box-shadow: 0px 0px 0px rgba(0,0,0,0);
 }
+.is-style-call-to-action.wp-block-navigation-item a,
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .is-style-call-to-action .wp-block-navigation-item__content {
+	padding: 0.44em 1.25em;
+}
+
 .is-style-call-to-action.wp-block-navigation-item a:hover,
 .is-style-call-to-action.wp-block-navigation-item a:focus {
 	color: var(--wp--preset--color--base);
@@ -55,7 +59,7 @@ body {
 	box-shadow: var(--wp--custom--shadow--small);
 }
 
-.is-style-clear-background {
+html:not(.has-modal-open) .is-style-clear-background {
 	backdrop-filter: var(--wp--custom--backdrop-filter--normal);
     -webkit-backdrop-filter: var(--wp--custom--backdrop-filter--normal);
 }
@@ -81,13 +85,15 @@ body {
 	box-shadow: var(--wp--custom--shadow--normal);
 }
 
-header.wp-block-template-part {
+/* header.wp-block-template-part {
 	position: sticky;
 	top: 0;
 	z-index: 55;
-}
+} */
 body.page header.wp-block-template-part,
-body.single header.wp-block-template-part {
+body.single header.wp-block-template-part,
+body.blog header.wp-block-template-part,
+body.archive header.wp-block-template-part {
 	position: fixed;
 	left: 0;
 	right: 0;
