@@ -44,3 +44,8 @@ function taffy_register_block_styles() {
 	);
 }
 endif;
+
+add_filter( 'body_class', function( $classes ) {
+	if (has_post_thumbnail()) $classes[] = 'has-post-thumbnail';
+	return $classes;
+} );
