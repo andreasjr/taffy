@@ -34,24 +34,14 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "var(--wp--preset--color--green)",
+					"color": "var(--wp--preset--color--blue)",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#5AED6B",
-					"name": "Primary - Alt",
-					"slug": "primary-alt"
-				},
-				{
-					"color": "var(--wp--preset--color--blue)",
+					"color": "var(--wp--preset--color--green)",
 					"name": "Secondary",
 					"slug": "secondary"
-				},
-				{
-					"color": "#AAE5FF",
-					"name": "Secondary - Alt",
-					"slug": "secondary-alt"
 				},
 				{
 					"color": "rgb(100, 71, 58)",
@@ -132,12 +122,12 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(180deg, var(--wp--preset--color--primary-alt), var(--wp--preset--color--base))",
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--primary), var(--wp--preset--color--base))",
 					"name": "Primary to Base",
 					"slug": "primary-to-base"
 				},
 				{
-					"gradient": "linear-gradient(180deg, var(--wp--preset--color--secondary-alt), var(--wp--preset--color--base))",
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--secondary), var(--wp--preset--color--base))",
 					"name": "Secondary to Base",
 					"slug": "secondary-to-base"
 				},
@@ -459,7 +449,7 @@
 	"styles": {
 		"color": {
 			"text": "var(--wp--preset--color--contrast)",
-			"gradient": "var(--wp--preset--gradient--primary-to-base)",
+			"gradient": "var(--wp--preset--gradient--secondary-to-base)",
 			"background": "var(--wp--preset--color--base)"
 		},
 		"typography": {
