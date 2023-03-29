@@ -6,24 +6,14 @@
 		"color": {
 			"palette": [
 				{
-					"color": "var(--wp--preset--color--green)",
+					"color": "var(--wp--preset--color--blue)",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#00B627",
-					"name": "Primary - Alt",
-					"slug": "primary-alt"
-				},
-				{
-					"color": "var(--wp--preset--color--blue)",
+					"color": "var(--wp--preset--color--green)",
 					"name": "Secondary",
 					"slug": "secondary"
-				},
-				{
-					"color": "#1E69F7",
-					"name": "Secondary - Alt",
-					"slug": "secondary-alt"
 				},
 				{
 					"color": "rgb(100, 71, 58)",
