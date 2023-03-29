@@ -6,12 +6,12 @@
 		"color": {
 			"palette": [
 				{
-					"color": "var(--wp--preset--color--blue)",
+					"color": "#2890D1",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "var(--wp--preset--color--green)",
+					"color": "#B8E4FF",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
