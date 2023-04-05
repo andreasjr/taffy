@@ -16,11 +16,11 @@ Tags: blog, photography, portfolio, grid-layout, two-columns, left-sidebar, wide
 */
 
 /* Elements */
-body {
+/* body {
     background-attachment: fixed;
 	background-repeat: repeat-x;
     background-size: 100vw 100vh;
-}
+} */
 
 h1 em,
 h2 em,
@@ -123,7 +123,7 @@ body.archive .wp-site-blocks > div:first-child {
 :not(div.is-style-outline) > .wp-element-button::before,
 :not(div.is-style-outline) > .wp-block-button__link::before {
 	background-color: inherit;
-	opacity: 0.8;
+	opacity: 0.5;
 	transform: translateY(3px);
 	filter: blur(10px);
 }
@@ -133,6 +133,7 @@ div:not(.is-style-outline) > .wp-element-button:focus::before,
 :not(div.is-style-outline) > .wp-block-button__link:focus::before {
 	transform: translateY(5px);
 	filter: blur(12px);
+	opacity: 0.8;
 }
 :not(div.is-style-outline) > .wp-element-button:active::before,
 :not(div.is-style-outline) > .wp-block-button__link:active::before {
