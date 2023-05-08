@@ -90,16 +90,6 @@ body.has-post-thumbnail .page-hero-heading--page-title {
 	top:0;
 }
 
-.is-style-position-fixed,
-body.page .wp-site-blocks > div:first-child,
-body.single .wp-site-blocks > div:first-child,
-body.blog .wp-site-blocks > div:first-child,
-body.archive .wp-site-blocks > div:first-child {
-	position: fixed;
-	left: 0;
-	right: 0;
-}
-
 /* Buttons */
 .wp-block-button__link,
 .wp-block-button__link::before {
@@ -170,8 +160,8 @@ body:not(.has-post-thumbnail) .page-hero-heading .page-hero-heading--page-title 
 	color: var(--wp--preset--color--contrast);
 }
 body.has-post-thumbnail .page-hero-heading .page-hero-heading--page-title {
-	background-color: var(--wp--preset--color--clear-alt);
-	color: var(--wp--preset--color--base);
+	background-color: var(--wp--preset--color--clear-primary);
+	color: var(--wp--preset--color--contrast);
 }
 
 /**
